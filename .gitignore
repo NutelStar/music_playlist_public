@@ -1,0 +1,13 @@
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+.venv
+pytest_cache/
+.pytest_cache/
+.idea
+.DS_Store
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+poetry.lock
+Pipfile.lock

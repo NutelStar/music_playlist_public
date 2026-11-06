@@ -1,0 +1,23 @@
+[project]
+name = "music-playlist"
+version = "1.0.0"
+description = "Manage musics using shortcut keys."
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+requires-python = "==3.12.6"
+dependencies = [
+    "requests",
+    "keyboard",
+    "sounddevice",
+    "soundfile",
+    "pygame",
+    "obs-websocket-py",
+    "numpy",
+    "obs-websocket-py",
+    "mutagen",
+    "pydub"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/music_playlist"]
